@@ -1,4 +1,4 @@
-# SpaceShip-arduino
+# Joystick LCD Arduino
 
 ## Logiciels
 | Arduino | Fritzing |
