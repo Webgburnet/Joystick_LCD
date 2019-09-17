@@ -75,6 +75,7 @@ void loop() {
   if(rx<10)
   {
     lcd.setCursor(4, 0);
+    lcd.print("   ");
     lcd.setCursor(11, 0);
     lcd.print("   ");
   }
@@ -82,6 +83,7 @@ void loop() {
   if(rx<100)
   {
     lcd.setCursor(5, 0);
+    lcd.print("  ");
     lcd.setCursor(12, 0);
     lcd.print("  ");
   }
@@ -89,6 +91,7 @@ void loop() {
   if(rx<1000)
   {
     lcd.setCursor(6, 0);
+    lcd.print(" ");
     lcd.setCursor(13, 0);
     lcd.print(" ");
   }
@@ -106,6 +109,7 @@ void loop() {
   if(ry<10)
   {
     lcd.setCursor(4, 1);
+    lcd.print("   ");
     lcd.setCursor(11, 1);
     lcd.print("   ");
   }
@@ -113,6 +117,7 @@ void loop() {
   if(ry<100)
   {
     lcd.setCursor(5, 1);
+    lcd.print("  ");
     lcd.setCursor(12, 1);
     lcd.print("  ");
   }
@@ -120,6 +125,7 @@ void loop() {
   if(ry<1000)
   {
     lcd.setCursor(6, 1);
+    lcd.print(" ");
     lcd.setCursor(13, 1);
     lcd.print(" ");
   }
